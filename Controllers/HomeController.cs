@@ -48,14 +48,19 @@ namespace Auth.Controllers
         [HttpPost("/login")]
         public async Task<IActionResult> Validate(string username, string password, string returnUrl)
         {
+            ViewData["ReturnUrl"] = returnUrl; 
             if(username == "bob" && password == "pizza")
             {
+                var claims = new List<Claim>();
+                claims.Add(new Claim("username", username));
+                claims.Add(new Claim(ClaimTypes.NameIdentifier, username));
                 var claimsIdentity = new ClaimsIdentity(claims,CookieAuthenticationDefaults.AuthenticationScheme);
                 var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
                 await HttpContext.SignInAsync(claimsPrincipal);
                 return Redirect(returnUrl);
             }
-            return BadRequest();
+            TempData["Error"] = "Error. Username or Password is invalid";
+            return View("login");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
