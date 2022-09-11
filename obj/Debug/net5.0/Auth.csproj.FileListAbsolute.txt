@@ -356,3 +356,4 @@ D:\DotNet\Practice\Auth\obj\Debug\net5.0\Auth.pdb
 D:\DotNet\Practice\Auth\obj\Debug\net5.0\Auth.genruntimeconfig.cache
 D:\DotNet\Practice\Auth\obj\Debug\net5.0\ref\Auth.dll
 D:\DotNet\Practice\Auth\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
+D:\DotNet\Practice\Auth\obj\Debug\net5.0\Razor\Views\Home\Denied.cshtml.g.cs
