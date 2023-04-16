@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotNet\\Practice\\Auth\\Auth.csproj": {}
+    "D:\\DotNet\\MVC\\Practice\\Auth\\Auth.csproj": {}
   },
   "projects": {
-    "D:\\DotNet\\Practice\\Auth\\Auth.csproj": {
+    "D:\\DotNet\\MVC\\Practice\\Auth\\Auth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet\\Practice\\Auth\\Auth.csproj",
+        "projectUniqueName": "D:\\DotNet\\MVC\\Practice\\Auth\\Auth.csproj",
         "projectName": "Auth",
-        "projectPath": "D:\\DotNet\\Practice\\Auth\\Auth.csproj",
+        "projectPath": "D:\\DotNet\\MVC\\Practice\\Auth\\Auth.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet\\Practice\\Auth\\obj\\",
+        "outputPath": "D:\\DotNet\\MVC\\Practice\\Auth\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
